@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+         <!-- Vai utilizar o padrão de codificação UTF-8
+         e para controlar a largura da tela(viewport) 
+         em celulares: width=devide-width define
+         a largura do viewport IGUAL a largura do cel.
+         initial-scale1=1.0 define o nível de zoom quando
+         a página é carregada. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Boat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Boat</h1>
+    </header>
+    <nav>
+        <a href="inicio.html"> Início </a>
+        <a href="embarcacoes.html"> Embarcações </a>
+        <a href="metodologia.html"> Metodologia </a>
+        <a href="sobrenos.html"> Sobre nós </a>
+    </nav>
+    <section id="inicio" style="text-align: center;">
+        <h2>Seja <strong>dono</strong> de um <strong>barco</strong> por menos do que imagina!</h2>
+        <img src="primeiraimagem.jpg" alt="Intermarine 440" style="width: 100%;">
+    </section>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+         <!-- Vai utilizar o padrão de codificação UTF-8
+         e para controlar a largura da tela(viewport) 
+         em celulares: width=devide-width define
+         a largura do viewport IGUAL a largura do cel.
+         initial-scale1=1.0 define o nível de zoom quando
+         a página é carregada. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Boat</h1>
+    </header>
+    <nav>
+        <a href="inicio.html"> Início </a>
+        <a href="embarcacoes.html"> Embarcações </a>
+        <a href="metodologia.html"> Metodologia </a>
+        <a href="sobrenos.html"> Sobre nós </a>
+    </nav>
+    <section id="metodologia">
+        <h2>Como funciona o sistema de embarcações compartilhadas?</h2>
+            <p>Você só precisa agendar o dia que quer navegar pelo nosso sistema e comparecer
+            na marina no dia escolhido. O resto nós cuidamos! </p>
+            <p>O compartilhamento proporciona agendamento online de
+                forma simples, mensalidades incluindo serviços de limpeza e higienização, seguro, marina,
+                administração, marinheiros especializados, fundo reserva,
+                rastreador e guarda náutica.</p>
+            <p><i>Ter e manter um barco pode ser tranquilo!</i></p>
+            <ol>
+                <li>Escolha o barco que deseja.</li>
+                <li>Compre uma cota.</li>
+                <li>Aproveite!</li>
+                </ol>
+        <h3>Quer saber mais? Nos envie seu e-mail que entraremos em contato.</h3>
+        <form action="/submit" method="post">
+            <label for="nome"  style="display: block;"><strong>Nome:</strong></label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email"  style="display: block;"><strong>Email:</strong></label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="embarcacao"  style="display: block;"><strong>Embarcação que mais gostou:</strong></label>
+            <input type="text" id="embarcacao" name="embarcacao" required>
+
+            <input type="submit" style="display: block; margin: 0 auto;" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
